@@ -1,0 +1,37 @@
+let a=prompt("enter A choice");
+let b=prompt("enter B choice");
+if((a=="rock"||a=="paper"||a=="scissor")&&(b=="rock"||b=="paper"||b=="scissor"))
+{
+if(a==b)
+{
+    console.log("Tie");
+
+}
+else if(a=="rock"&&b=="scissor")
+{
+    console.log(" A wins");
+}
+else if(a=="rock"&&b=="paper")
+{
+    console.log(" B wins");
+}
+else if(a=="scissor"&&b=="rock")
+{
+    console.log(" B wins");
+}
+else if(a=="scissor"&&b=="paper")
+{
+    console.log(" A wins");
+}
+else if(a=="paper"&&b=="scissor")
+{
+    console.log(" B wins");
+}
+else if(a=="paper"&&b=="rock")
+{
+    console.log(" A wins");
+}
+}
+else{
+    console.log("You enter wrong");
+}
